@@ -1,3 +1,5 @@
+package com.leetcodeproblems.practice;
+
 import java.util.Arrays;
 
 public class TwoSum {
@@ -17,14 +19,14 @@ public class TwoSum {
         int target = 9;
 
         //To return indices which is array[0,1]
-        // (If we don't print toString we will be given garbage)
+        // (If we don't print Arrays.toString we will be given garbage)
         System.out.println(Arrays.toString(twoSums(nums, target)));
     }
 
     /** TwoSums method - static because we are returning a specific type */
     static int [] twoSums(int [] num, int targets) {
         // Equation with variables: nums[i] + nums[j] == target (return the indices)
-        // Visualize an array indices {0,1,2,3,4} my I = nums.length
+        // Visualize an array indices {0,1,2,3,4} my i = nums.length
         // Visualize another array J = i+1 {1,2,3,4};
         // nums [2,7,11,15];
         // NOTE: Visualize J = i + 1; When i=0, j will start at 1
