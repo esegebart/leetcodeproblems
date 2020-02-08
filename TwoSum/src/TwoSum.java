@@ -10,7 +10,8 @@ public class TwoSum {
 
     public static void main(String[] args){
         // To hold the nums input [array]
-        int nums [] = {1, 3, 4, 11, 15, 7, 2};
+        int nums [] = {2,7,11,15};
+                // input two {1, 3, 4, 11, 15, 7, 2};
 
         // To hold target (expected sum of two nums)
         int target = 9;
@@ -25,7 +26,7 @@ public class TwoSum {
         // Equation with variables: nums[i] + nums[j] == target (return the indices)
         // Visualize an array indices {0,1,2,3,4} my I = nums.length
         // Visualize another array J = i+1 {1,2,3,4};
-        // nums[2,7,11,15];
+        // nums [2,7,11,15];
         // NOTE: Visualize J = i + 1; When i=0, j will start at 1
         // The if statement is used to check if the condition matches the target
 
