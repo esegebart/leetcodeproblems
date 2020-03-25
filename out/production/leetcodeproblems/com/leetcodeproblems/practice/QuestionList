@@ -1,0 +1,84 @@
+1. https://leetcode.com/articles/valid-palindrome-ii/
+
+2. https://leetcode.com/problems/word-break-ii/
+
+3. https://leetcode.com/problems/verifying-an-alien-dictionary/
+
+4. https://leetcode.com/problems/subarray-sum-equals-k/
+
+5. https://leetcode.com/problems/remove-invalid-parentheses/
+
+6. https://leetcode.com/problems/3sum/
+
+7. https://leetcode.com/problems/course-schedule-ii/
+
+8. https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/
+
+9. https://leetcode.com/problems/reorganize-string/
+
+10. https://leetcode.com/problems/subarray-sum-equals-k/
+
+11. https://leetcode.com/problems/verifying-an-alien-dictionary/
+
+12. https://leetcode.com/problems/friends-of-appropriate-ages/
+
+13. https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/
+
+14. https://leetcode.com/problems/single-number/
+
+15. https://leetcode.com/problems/single-number-ii/
+
+16. https://leetcode.com/problems/add-binary/
+
+17. https://leetcode.com/problems/number-of-islands/
+
+18. https://leetcode.com/problems/pancake-sorting/
+
+19. https://leetcode.com/articles/bitwise-and-of-numbers-range/
+
+20. https://leetcode.com/discuss/interview-question/124673/Design-a-Location-Sharing-Android-Application
+
+21. https://leetcode.com/problems/lru-cache/
+
+22. https://leetcode.com/problems/max-consecutive-ones-iii/
+
+23. https://leetcode.com/problems/validate-binary-search-tree/
+
+24. https://leetcode.com/discuss/interview-experience/304878/Facebook-or-Android-Developer-or-London-or-December-2018-Reject
+
+25. https://www.questia.com/library/journal/1P3-3144632871/a-gcm-solution-for-leveraging-server-side-jms-functionality
+
+26. https://leetcode.com/problems/all-elements-in-two-binary-search-trees/
+
+27. https://leetcode.com/problems/two-city-scheduling/
+
+28. https://leetcode.com/problems/merge-k-sorted-lists/
+
+29. https://leetcode.com/problems/sort-colors/
+
+30. https://leetcode.com/problems/minimum-window-substring/
+
+31 . https://leetcode.com/problems/3sum/
+
+32 . https://leetcode.com/problems/binary-tree-level-order-traversal/
+
+33. https://leetcode.com/problems/coin-change/
+
+
+
+
+Given a method reverse:
+
+/**
+* Reverse the first k elements.
+* Eg. [2,3,1,5,4] and k =3
+* Output : [2,3,1,5,4]
+*/
+void reverse(int[] arr, k);
+write another method which will sort the array by incorporating reverse method inside sort.
+
+sort(int[] arr) {
+	// call reverse method
+}
+You must have to call reverse(arr,k) method to sort the array. You are not allowed to modify the reverse method
+final out put [1,2,3,4,5], and this is inplace reverse and sorting

@@ -20,7 +20,9 @@ public class TwoSum {
 
         //To return indices which is array[0,1]
         // (If we don't print Arrays.toString we will be given garbage)
-        System.out.println(Arrays.toString(twoSums(nums, target)));
+       System.out.println(Arrays.toString(twoSums(nums, target)));
+
+        sumArray(nums);
     }
 
     /** TwoSums method - static because we are returning a specific type */
@@ -41,6 +43,19 @@ public class TwoSum {
             }
         }
         return null;
+    }
+
+    static void sumArray(int nu[]){
+
+        int sum = 0; // ------  1 unit time
+
+        for(int num : nu){ // ------------ n + 1
+
+            sum+= num; // ------------- n times
+        }
+
+        System.out.println(sum); // times function is f(n) = 2n + 3
+        // hence the degree of the polynomial is Order(n) or O(n)
     }
 }
 
