@@ -15,30 +15,11 @@ public class Practice {
         System.out.println(compareStrings(s1,s2));
         System.out.println(findUnique(ar));
 
-        basicHashMapImplementation();
 
 
     }
 
 
-    static void basicHashMapImplementation(){
-
-        Map<Integer, String> map = new HashMap<>();
-        map.put(1, "Madona");
-        map.put(2, "Muthoka");
-        map.put(3,"Kavyu");
-        map.put(4, "Kisomo");
-
-        //iterate through the map and print the added elements
-        for(Map.Entry<Integer,String > m : map.entrySet()){
-
-            System.out.println(m.getKey() + " " + m.getValue());
-            System.out.println();
-
-        }
-
-
-    }
 
     //Question 2. Given an array of all duplicates with 1 unique element find that element
     // I know of the  XOR(Exclusive or) or we can use the Exclusive Or logical biconditional,
